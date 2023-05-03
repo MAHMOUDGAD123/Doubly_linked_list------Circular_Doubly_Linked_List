@@ -555,16 +555,16 @@ namespace MG {
 
 
 
-		constexpr void print() const noexcept
+		/*constexpr void print() const noexcept
 		{
-			if (empty()) {
+			if (empty()) { // demo purpose
 				std::cout << "Empty List :-(\n\n";
 				return;
 			}
 			for (Node_Ptr _Curr{ _Head }; _Curr; _Curr = _Curr->_Next) {
 				std::cout << _Curr->_Data << "  ";
 			}
-		}
+		}*/
 
 
 
